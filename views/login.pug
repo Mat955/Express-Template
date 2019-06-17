@@ -1,0 +1,18 @@
+doctype html
+html(lang='eng')
+    head
+        meta(charset="UTF-8")
+        link(rel='styelsheet', href='https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap', type='text/css')
+        style
+            include ./style.css
+
+    body 
+        div.container
+            h1 Sign in with your Google Account
+            img.google(src="http://pngimg.com/uploads/google/google_PNG19642.png" alt="Google Images")
+            form(action="http://localhost:3000/logged", method="GET")
+                p First Name:
+                    input(type="text", name="first_name")
+                p Last Name:
+                    input(type="text", name="last_name")
+                    input.button(type="submit", value="Submit")        

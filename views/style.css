@@ -1,0 +1,58 @@
+body {
+    background-color: bisque;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.container-logged {
+    font-size: 35px;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container p {
+    text-align: center;
+    margin: 15px;
+}
+
+.container form p  {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.container .google {
+    width: 450px;
+    height: 400px;
+}
+
+input[type=text] {
+    font-size: 16px;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border-radius: 20%;
+    box-sizing: border-box;
+  }
+
+input[type=submit] {
+        width: 250px;
+        margin: 10px;
+        border: 2px solid #42c918;
+        padding: 6px 24px;
+        font-size: 1.15em;
+        border-radius: 20%;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        color: #42c918;
+        background-color: #ffffff;
+        cursor: pointer;
+}
+input[type=submit]:hover {
+    background-color: #42c918;
+    color: #ffffff;
+}
