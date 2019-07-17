@@ -1,0 +1,14 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        link(rel='styelsheet', href='https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap', type='text/css')
+        title="Logged with Google Account"
+        style
+            include ./style.css
+
+    body
+        div.container-logged
+            h1 Hi! #{first_name} #{last_name}
+            p You are logged with your Google Account
+            img.google(src="https://png.pngtree.com/svg/20170703/d09e261e9c.svg" alt="Login Success Images")
